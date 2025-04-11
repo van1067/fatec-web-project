@@ -1,0 +1,70 @@
+/* cor texto: FFCC69*/
+/* cor de fundo: 344562*/
+body{
+    margin: 0;
+    padding: 0;
+    color: #FFCC69;
+    font-family: 'Montserrat';
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    background-color: #344562;
+    display: flex;
+    justify-content: space-between;   
+    height: 12vh; 
+}
+#logo{
+    height: 12vh;
+}
+a{
+    text-decoration: none;
+    color:#FFCC69;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#principal{
+    height: 88vh;
+}
+.content_container{
+    display: flex;
+    background-color: #344562;
+    border-radius: 10px;
+    opacity: 0.8;
+    height: 300px;
+    padding: 10px;
+    width: 350px;
+}
+.content{
+    margin: 10px;
+    font-size: small;
+}
+/*.container > div{
+    background-color: black;
+}*/
+button{
+    margin-left: 5px;
+    width: 130px;
+    height: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/*
+
+           Na Board Game Store, você encontra um atendimento feito por quem realmente entende do assunto e compartilha da mesma paixão que você. Queremos que cada visita seja uma descoberta, e que você se sinta parte da nossa comunidade de jogadores. Prepare-se para explorar mundos incríveis, conquistar reinos e se divertir como nunca. */
